@@ -12,8 +12,9 @@ Everything in this repository is released under the GNU GPLv2. You may create or
 Firmware / Requirements
 ------------
 
-  * Xilinx ISE, 14.7 (the final version - other versions may work but this is the one I support)
-  * JTAG Adaptor
+  * Any Xilinx ISE that support XC9500XL Family (I personally work with final 14.7 version). You may need to create project
+    manually and imort source files if your ISE can't work with my project file.
+  * JTAG Adaptor (use urjtag for adaptors not suppoerted by ISE, requires to generate .svf file)
 
 PCB Manufacture
 ---------------
